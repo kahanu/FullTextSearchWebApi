@@ -25,7 +25,7 @@ The payload must be in the shape of the following JSON object:
 }
 ```
 
-There is a companion Angular 5+ application that has a Dynamic Search Form component that builds the request to the service in the shape needed by this service.
+There is a separate Angular 5+ companion application that has a Dynamic Search Form component that builds the request to the service in the shape needed by this service.  You can check out the code at the following link.
 
 [Angular 5 - Dynamic Search Form](https://github.com/kahanu/DynamicSearchForm)
 
