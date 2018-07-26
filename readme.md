@@ -1,6 +1,6 @@
 # Dynamic Search Service
 
-This is a .Net WebApi (.NET Framework 4.6.1) that uses the Lambda ExpressionBuilder NuGet package to consume a JSON payload that contains search criteria.
+This is a .Net WebApi (.NET Framework 4.6.1) that uses the Lambda ExpressionBuilder NuGet package to consume a JSON payload that contains search criteria. [Lambda ExpressionBuilder](https://github.com/dbelmont/ExpressionBuilder)
 
 The payload must be in the shape of the following JSON object:
 
