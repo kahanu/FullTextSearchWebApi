@@ -88,7 +88,7 @@ namespace FTS.Library.Search
                 {
                     foreach (var str in criteria.FieldValue)
                     {
-                        filter.By(criteria.FieldName, Operation.ByName(criteria.OperationName), str.ToString().Trim(), null, criteria.Connector);
+                        filter.By(criteria.FieldName, Operation.ByName(criteria.OperationName), str, null, criteria.Connector);
                     }
                 }
             }
